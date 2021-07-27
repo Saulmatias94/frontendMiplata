@@ -1,0 +1,16 @@
+// Define variable defaults
+$warning: rgb(255, 193, 7);
+$primary: rgb(255, 255, 255);
+$dark: rgb(52, 58, 64);
+$secondary: rgb(187, 191, 202);
+$default: #172b4d !default;
+.dropdown-menu.show {
+    border: 2px solid $warning;
+    padding: 0px;
+    border-radius: 0.3rem;
+    min-width: 20rem;
+}
+
+// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
